@@ -7,7 +7,7 @@ class Penguin(Bird):
     def fly(self):
         raise Exception("Пінгвін не літає")
 bird = Bird()
-bird.fly()  # Виведе: Летить
+bird.fly()
 
 
 penguin = Penguin()
